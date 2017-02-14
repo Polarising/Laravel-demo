@@ -30,6 +30,8 @@ class CustomerController extends Controller
     	//return result
     	$result = [
     		'status' => 1,
+    		'firstName' => $data_array['firstName'],
+    		'lastName' => $data_array['lastName'],
     	];
 
     	$type = 'application/json';
